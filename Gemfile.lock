@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.3.0)
+    dotenv (2.8.1)
+    event_stream_parser (1.0.0)
+    faraday (2.8.1)
+      base64
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-multipart (1.2.0)
+      multipart-post (~> 2.0)
+    faraday-net_http (3.0.2)
+    http-2-next (0.5.1)
+    httpx (0.24.7)
+      http-2-next (< 1.0.0)
+    multipart-post (2.4.1)
+    ruby-openai (8.3.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    ruby2_keywords (0.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  httpx
+  ruby-openai
+
+BUNDLED WITH
+   2.3.10
